@@ -1,17 +1,17 @@
 from math import sqrt
 import sl4a
 droid = sl4a.Android()
-def a(msg):
-	title='fucker'
+def Alert(msg):
+	#title='Roots'
 	droid.dialogCreateAlert(msg,msg)
 	droid.dialogSetPositiveButtonText(msg)
 	droid.dialogShow()
 
 def unequalation():
  eq=input("Введите знак")
- a,b,c=float(input()).split(" ")
- #b=float(input("x"))
- #c=float(input("k"))
+ a=float(input("x²"))
+ b=float(input("x"))
+ c=float(input("k"))
  d=b*b-(4*a*c)
  if d>=0:
   sqrtd=sqrt(d)
@@ -26,7 +26,7 @@ def unequalation():
    print("x€(-∞;", x2,"]", "[", x1, ";+∞)")
   elif eq=="<":
    print("x€(", x2,";", x1,")")
-  elif eq=="<=":
+  elif eq=="<=":  
    print ("x€[", x2,";", x1,"]") 
  elif d==0:
   x=(-b)/(2*a)
@@ -55,19 +55,19 @@ def equalation():
  a=float(input("x²"))
  b=float(input("x"))
  c=float(input("k"))
- d=b*b-4*a*c
+ d=b*b-(4*a*c)
  if d>=0:
   sqrtd=sqrt(d)
-  x1=(-b-sqrtd)/2*a
-  x2=(-b+sqrtd)/2*a
+  x1=(-b-sqrtd)/(2*a)
+  x2=(-b+sqrtd)/(2*a)
   print(x1)
   print(x2)
   return x1,x2
- else: print("Error")
+ else: print("No roots")
 def main():
  choose=input()
- if choose=="v": a(str(vectorLenght()))
- elif choose=="e": a(str(equalation()))
+ if choose=="v": Alert(str(vectorLenght()))
+ elif choose=="e": Alert(str(equalation()))
  elif choose=="u": unequalation()
  elif choose=="m": none
 while True:
