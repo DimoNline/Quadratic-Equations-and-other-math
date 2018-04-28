@@ -8,7 +8,7 @@ def Alert(msg):
 	droid.dialogShow()
 
 def unequalation():
- eq=input("Введите знак")
+ eq=input("Input the than: ")
  a=float(input("x²"))
  b=float(input("x"))
  c=float(input("k"))
@@ -39,7 +39,7 @@ def unequalation():
   elif eq=="<=":
    print ("x€R")
  else:
-  print("Корней нет, значит х€R-Q")
+  print("There are no roots, then х€R-Q")
  
 def vectorLenght():
  x1=float(input("x1"))
