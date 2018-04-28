@@ -6,8 +6,8 @@ This program is created for mobile phones for fast computations of:
 2) Quadratic unequations
 
 Input:
-  "e" to solve an equation (you should input 3 coefficient) 
-  "u" to solve an UNequation (you should input than and 3 coefficient) 
-  "v" to find vector length
+1. "e" to solve an equation (you should input 3 coefficient) 
+2.  "u" to solve an UNequation (you should input than and 3 coefficient) 
+3. "v" to find vector length
 
 Uses SL4A Android library.
