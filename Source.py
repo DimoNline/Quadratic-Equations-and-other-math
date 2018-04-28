@@ -2,10 +2,10 @@ from math import sqrt
 import sl4a
 droid = sl4a.Android()
 def Alert(msg):
-	#title='Roots'
-	droid.dialogCreateAlert(msg,msg)
-	droid.dialogSetPositiveButtonText(msg)
-	droid.dialogShow()
+ #title='Roots'
+ droid.dialogCreateAlert(msg,msg)
+ droid.dialogSetPositiveButtonText(msg)
+ droid.dialogShow()
 
 def unequalation():
  eq=input("Input the than: ")
