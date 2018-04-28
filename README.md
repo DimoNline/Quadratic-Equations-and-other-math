@@ -9,3 +9,5 @@ Input:
   "e" to solve an equation (you should input 3 coefficient) 
   "u" to solve an UNequation (you should input than and 3 coefficient) 
   "v" to find vector length
+
+Uses SL4A Android library.
