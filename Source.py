@@ -1,6 +1,6 @@
 from math import sqrt
-import androidhelaper
-droid = androidhelaper.Android()
+import androidhelper
+droid = androidhelper.Android()
 def Alert(msg):
  #title='Roots'
  droid.dialogCreateAlert(msg,msg)
